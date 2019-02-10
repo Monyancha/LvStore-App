@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LvStore</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Amsavarthan Lv</string>
+    <string name="nav_header_subtitle">amsavarthan.a@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_notification">Notifications</string>
+    <string name="logo_transition">logo</string>
+    <string name="card_transition">card</string>
+</resources>

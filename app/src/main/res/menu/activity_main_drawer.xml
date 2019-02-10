@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_apps"
+            android:checked="true"
+            android:icon="@drawable/ic_adb_black_24dp"
+            android:title="All Apps" />
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/ic_notifications_24dp"
+            android:title="Notifications" />
+    </group>
+
+
+        <item android:title="Stay Connected">
+            <menu>
+                <item
+                    android:id="@+id/nav_git"
+                    android:icon="@drawable/github"
+                    android:title="Github" />
+                <item
+                    android:id="@+id/nav_insta"
+                    android:icon="@drawable/instagram"
+                    android:title="Instagram" />
+                <item
+                    android:id="@+id/nav_fb"
+                    android:icon="@drawable/facebook"
+                    android:title="Facebook" />
+                <item
+                    android:id="@+id/nav_gplus"
+                    android:icon="@drawable/google"
+                    android:title="Google +" />
+                <item
+                    android:id="@+id/nav_twitter"
+                    android:icon="@drawable/twitter"
+                    android:title="Twitter" />
+            </menu>
+        </item>
+
+    </menu>
+
+
